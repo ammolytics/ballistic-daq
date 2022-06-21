@@ -13,7 +13,10 @@ XC7A50T-1FTG256
 4x AD9251
 S27KS0642GABHI030
 
+ADC: AVDD = 1V8, DRVDD = 1V8
 MCU: use STM32L031 in UQFN28 because easier to obtain than F031, and can do LVCMOS18 I/O which simplifies FPGA banking
+
+Total current is not going to be high all. LTC3374 may be overkill? Also consider LDO for A1V8 to reduce noise.
 
 ## MCU I/O budget
 

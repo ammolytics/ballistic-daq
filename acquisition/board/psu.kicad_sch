@@ -4,7 +4,43 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Digitizer board")
+    (date "2022-06-22")
+    (rev "0.1")
+    (company "A. Zonenberg")
+  )
+
   (lib_symbols
   )
 
+
+  (hierarchical_label "A1V8" (shape output) (at 76.2 113.03 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 02d85705-05d9-4a10-914c-6bb768b7080b)
+  )
+  (hierarchical_label "GND" (shape output) (at 76.2 124.46 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 0e48fa79-c1a4-4d07-bfc9-97eb8c346af2)
+  )
+  (hierarchical_label "3V3" (shape output) (at 73.66 102.87 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 397b7f2f-048a-41b9-9842-ca0ad26cdd53)
+  )
+  (hierarchical_label "1V0" (shape output) (at 76.2 119.38 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 4fe5305a-de35-4c65-8054-d97ad30c083d)
+  )
+  (hierarchical_label "2V5" (shape output) (at 77.47 132.08 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 573f7306-a885-44db-8315-74a24a49dd9d)
+  )
+  (hierarchical_label "D1V8" (shape output) (at 76.2 115.57 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 7958f754-3195-46e2-9888-98f4ff75ee3a)
+  )
+  (hierarchical_label "VREF" (shape output) (at 74.93 87.63 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 87e6af69-81ea-4e13-8f48-cc44224ff465)
+  )
 )

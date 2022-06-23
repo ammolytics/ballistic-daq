@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Digitizer board")
+    (date "2022-06-22")
+    (rev "0.1")
+    (company "A. Zonenberg")
+  )
+
   (lib_symbols
   )
 

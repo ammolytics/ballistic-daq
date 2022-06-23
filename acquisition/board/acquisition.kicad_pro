@@ -352,6 +352,10 @@
     [
       "a4b162c7-3e25-42c9-bb24-04fffef92773",
       "QSPI flash"
+    ],
+    [
+      "62d67f2a-2222-449a-8c0a-4c071b2bd048",
+      "FTDI USB interface"
     ]
   ],
   "text_variables": {}

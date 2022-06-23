@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Digitizer board")
+    (date "2022-06-22")
+    (rev "0.1")
+    (company "A. Zonenberg")
+  )
+
   (lib_symbols
     (symbol "device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 2.032 0 90)
@@ -176,7 +183,7 @@
   (symbol (lib_id "device:R") (at 110.49 57.15 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 14eb1346-62bb-4175-82f0-f35e7521926f)
-    (property "Reference" "R?" (id 0) (at 116.84 55.88 90))
+    (property "Reference" "R7" (id 0) (at 116.84 55.88 90))
     (property "Value" "33" (id 1) (at 110.49 57.15 90))
     (property "Footprint" "" (id 2) (at 110.49 58.928 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -191,7 +198,7 @@
   (symbol (lib_id "device:R") (at 110.49 54.61 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid cb00e9cc-13d3-4f64-9932-03fd19e3afa6)
-    (property "Reference" "R?" (id 0) (at 116.84 53.34 90))
+    (property "Reference" "R6" (id 0) (at 116.84 53.34 90))
     (property "Value" "33" (id 1) (at 110.49 54.61 90))
     (property "Footprint" "" (id 2) (at 110.49 56.388 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -206,7 +213,7 @@
   (symbol (lib_id "device:R") (at 110.49 52.07 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e8af4bfa-bd49-42d0-8159-8f554cfd9987)
-    (property "Reference" "R?" (id 0) (at 116.84 50.8 90))
+    (property "Reference" "R5" (id 0) (at 116.84 50.8 90))
     (property "Value" "33" (id 1) (at 110.49 52.07 90))
     (property "Footprint" "" (id 2) (at 110.49 53.848 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -221,7 +228,7 @@
   (symbol (lib_id "memory-azonenberg:S25FLxxxS_BGA24_5x5_VIO") (at 74.93 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f1ae5718-93f3-4d7c-b04c-417991a9b486)
-    (property "Reference" "U?" (id 0) (at 88.265 38.7761 0)
+    (property "Reference" "U9" (id 0) (at 88.265 38.7761 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "S25FL128SAGBHIA10" (id 1) (at 88.265 42.0551 0)
@@ -248,7 +255,7 @@
   (symbol (lib_id "device:R") (at 110.49 49.53 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fc0a5b78-c00f-421d-8400-a581e6063d9c)
-    (property "Reference" "R?" (id 0) (at 116.84 48.26 90))
+    (property "Reference" "R4" (id 0) (at 116.84 48.26 90))
     (property "Value" "33" (id 1) (at 110.49 49.53 90))
     (property "Footprint" "" (id 2) (at 110.49 51.308 90)
       (effects (font (size 1.27 1.27)) hide)

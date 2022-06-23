@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Digitizer board")
+    (date "2022-06-22")
+    (rev "0.1")
+    (company "A. Zonenberg")
+  )
+
   (lib_symbols
     (symbol "cypress-azonenberg:S27KS0641" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 -1.27 0)
@@ -1179,6 +1186,8 @@
     (uuid d7c6c785-f3fd-4c6a-ac90-1244fb12c905)
   )
 
+  (no_connect (at 222.25 36.83) (uuid 2bce4a3a-ba0a-475d-91d2-ade1fa28f855))
+
   (wire (pts (xy 59.69 48.26) (xy 59.69 50.8))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 11a5c39c-67a1-4a35-a620-07830da62f1a)
@@ -1322,19 +1331,35 @@
     (uuid f5a6731b-d91f-4ef1-98f1-c52e6404fd5b)
   )
 
+  (hierarchical_label "MCU_SPI_SCK" (shape input) (at 222.25 29.21 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 2c230ee4-be95-4451-9531-2ca663122f56)
+  )
   (hierarchical_label "1V8" (shape output) (at 59.69 48.26 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6af46ad6-f211-41d3-810b-3b20e6fa721b)
+  )
+  (hierarchical_label "MCU_SPI_SO" (shape output) (at 222.25 34.29 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 7cf8b353-a369-4b04-96ce-83280395710c)
   )
   (hierarchical_label "GND" (shape output) (at 59.69 58.42 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 82d357bb-9419-4863-b774-58a486be67d6)
   )
+  (hierarchical_label "MCU_SPI_SI" (shape input) (at 222.25 31.75 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 883c0125-2a80-4249-ba28-1bc7eddd73ae)
+  )
+  (hierarchical_label "MCU_SPI_CS_N" (shape input) (at 222.25 26.67 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid f89ed1d2-d7c2-40a1-85fc-16f5d2d8e580)
+  )
 
   (symbol (lib_id "cypress-azonenberg:S27KS0641") (at 64.77 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 14a2dab0-eb9c-4a9b-9118-67dc2f030ccf)
-    (property "Reference" "U?" (id 0) (at 77.47 42.5861 0)
+    (property "Reference" "U8" (id 0) (at 77.47 42.5861 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "S27KS0642" (id 1) (at 77.47 45.8651 0)
@@ -1372,7 +1397,7 @@
   (symbol (lib_id "xilinx-azonenberg:XC7AxT-xFTG256x") (at 227.33 151.13 0) (unit 5)
     (in_bom yes) (on_board yes)
     (uuid 365283e1-8f97-47f7-90d0-81aabd5a4e75)
-    (property "Reference" "U?" (id 0) (at 227.33 154.201 0)
+    (property "Reference" "U2" (id 0) (at 227.33 154.201 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Value" "XC7A50T-1FTG256C" (id 1) (at 227.33 157.48 0)

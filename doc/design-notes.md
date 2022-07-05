@@ -114,3 +114,17 @@ This is 16 Mbits of data
 Use FT232HL. Claims 40 MB/s = 320 Mbps transfer rates in datasheet. This is likely optimistic.
 
 Assuming 250 Mbps achievable transfer rate, ~15 WFM/s streaming should be doable
+
+# Future improvements
+
+Next board rev will use a 484 ball 7 series FPGA. This goes from 170 to 250 pins (five banks of 50 pins).
+
+Possible options (Jul 4 2022 pricing, -1 speed grade):
+* XC7S50: $69.58
+* XC7A50T: $92.54
+* XC7A35T: $63.63
+* XC7A15T: $51.66
+
+12T/25T are off the table due to insufficient I/O density.
+
+Should allow us to omit the iec40 as well as all level shifters by running four banks at 1.8V and one at 3.3V.

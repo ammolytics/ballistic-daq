@@ -6,7 +6,7 @@
 
   (title_block
     (title "Digitizer board")
-    (date "2022-06-22")
+    (date "2022-07-04")
     (rev "0.1")
     (company "A. Zonenberg")
   )
@@ -331,6 +331,9 @@
   )
 
   (no_connect (at 36.83 114.3) (uuid 2c49958c-3310-4b6b-aad2-13f12a2c2f5d))
+  (no_connect (at 36.83 86.36) (uuid 9798fdc9-0fb9-49d9-bd71-b7e8e45c2bc4))
+  (no_connect (at 36.83 83.82) (uuid 9798fdc9-0fb9-49d9-bd71-b7e8e45c2bc4))
+  (no_connect (at 36.83 81.28) (uuid 9798fdc9-0fb9-49d9-bd71-b7e8e45c2bc4))
   (no_connect (at 36.83 111.76) (uuid a45cc0d4-a78a-47f0-a1ad-e5dee2cd8909))
 
   (wire (pts (xy 36.83 123.19) (xy 36.83 127))
@@ -345,6 +348,11 @@
   (text "TODO: decoupling" (at 45.72 162.56 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3b19d874-f48c-4e06-a7b3-bb6b983c1f82)
+  )
+  (text "FIXME: LEDs need level shifting FETs for 1.8V drive"
+    (at 123.19 95.25 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d00032b9-a135-48ec-91dc-53c262ee7476)
   )
   (text "TODO: LEDs" (at 127 87.63 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -444,10 +452,6 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 8caf3a1e-4d07-4ab0-b514-17b2c6addfea)
   )
-  (hierarchical_label "PLL_STATUS_CLKIN0" (shape input) (at 36.83 83.82 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 9950e57b-f649-4057-acc7-b37d6f6cde58)
-  )
   (hierarchical_label "PLL_SYNC" (shape output) (at 36.83 62.23 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a99c9497-2943-4315-9457-f828ac834f05)
@@ -455,10 +459,6 @@
   (hierarchical_label "MCU_SPI_CS_N" (shape output) (at 36.83 41.91 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ad250765-d798-4dae-96d3-c78ce77bda5f)
-  )
-  (hierarchical_label "PLL_STATUS_HOLDOVER" (shape input) (at 36.83 81.28 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid c3bd7cbf-e5cf-43ac-b79e-0bfaede9a86d)
   )
   (hierarchical_label "ADC1_PDWN" (shape output) (at 36.83 54.61 180)
     (effects (font (size 1.27 1.27)) (justify right))
@@ -483,10 +483,6 @@
   (hierarchical_label "GND" (shape input) (at 36.83 134.62 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f0fcd341-750d-4081-9bce-bc65ea84daf0)
-  )
-  (hierarchical_label "PLL_STATUS_CLKIN1" (shape input) (at 36.83 86.36 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid f88ab2eb-3c4b-4ab1-8652-7b1e1c4016b4)
   )
 
   (symbol (lib_id "st-azonenberg:STM32L031-QFN32") (at 40.64 115.57 0) (unit 3)

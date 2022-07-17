@@ -6,7 +6,7 @@
 
   (title_block
     (title "Digitizer board")
-    (date "2022-07-08")
+    (date "2022-07-17")
     (rev "0.1")
     (company "A. Zonenberg")
   )
@@ -1620,7 +1620,7 @@
     (property "Reference" "R35" (id 0) (at 42.418 110.8515 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "DNP" (id 1) (at 42.418 113.6266 0)
+    (property "Value" "100" (id 1) (at 42.418 113.6266 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "azonenberg_pcb:EIA_0402_RES_NOSILK" (id 2) (at 38.862 111.76 90)
@@ -1736,7 +1736,7 @@
     (property "Reference" "R34" (id 0) (at 42.418 98.1515 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "DNP" (id 1) (at 42.418 100.9266 0)
+    (property "Value" "100" (id 1) (at 42.418 100.9266 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "azonenberg_pcb:EIA_0402_RES_NOSILK" (id 2) (at 38.862 99.06 90)

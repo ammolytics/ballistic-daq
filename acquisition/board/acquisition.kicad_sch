@@ -2116,18 +2116,6 @@
     (path "/41c18011-40db-4384-9ba4-c0158d0d9d6a/07bf72bb-ad31-451a-84dd-1ec025493201"
       (reference "R57") (unit 1) (value "100") (footprint "azonenberg_pcb:EIA_0402_RES_NOSILK")
     )
-    (path "/41c18011-40db-4384-9ba4-c0158d0d9d6a/d70eb7a1-93d0-4a6c-82eb-c6ed1695ea71"
-      (reference "R58") (unit 1) (value "100") (footprint "azonenberg_pcb:EIA_0402_RES_NOSILK")
-    )
-    (path "/41c18011-40db-4384-9ba4-c0158d0d9d6a/85c0c0e9-05d9-4272-95ca-570284f5c8b0"
-      (reference "R59") (unit 1) (value "100") (footprint "azonenberg_pcb:EIA_0402_RES_NOSILK")
-    )
-    (path "/41c18011-40db-4384-9ba4-c0158d0d9d6a/3eeca562-650c-4532-a480-3383c18e1162"
-      (reference "R60") (unit 1) (value "100") (footprint "azonenberg_pcb:EIA_0402_RES_NOSILK")
-    )
-    (path "/41c18011-40db-4384-9ba4-c0158d0d9d6a/c502dd2f-52d7-4630-98eb-0b62f19ed089"
-      (reference "R61") (unit 1) (value "100") (footprint "azonenberg_pcb:EIA_0402_RES_NOSILK")
-    )
     (path "/41c18011-40db-4384-9ba4-c0158d0d9d6a/5f661a2f-7fda-45b2-a0be-5a5adf165ad2"
       (reference "R62") (unit 1) (value "33") (footprint "azonenberg_pcb:EIA_0402_RES_NOSILK")
     )
